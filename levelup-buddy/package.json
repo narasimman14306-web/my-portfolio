@@ -1,0 +1,47 @@
+{
+  "name": "levelup-buddy",
+  "version": "1.0.0",
+  "description": "LevelUp Buddy — Personal Life Management Offline Android App",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "cap:sync": "cap sync",
+    "cap:open": "cap open android",
+    "cap:build": "npm run build && npx cap sync android"
+  },
+  "keywords": [
+    "productivity",
+    "offline-first",
+    "life-management",
+    "habits",
+    "routines",
+    "capacitor",
+    "indexeddb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/local-notifications": "^8.3.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "date-fns": "^4.4.0",
+    "dexie": "^4.4.6",
+    "dexie-react-hooks": "^4.4.0",
+    "lucide-react": "^1.56.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4",
+    "recharts": "^3.10.1",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
+  }
+}
